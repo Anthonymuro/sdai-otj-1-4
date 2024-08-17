@@ -1,0 +1,13 @@
+.menu-description {
+    font-size:30px;
+    line-height:1.6; /* Adjusted line height for improved readability */
+    color: #f106d2; /* Dark gray for readability */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px; /* Add space between paragraphs */
+}
+
+.menu-description br {
+    content: "";
+    display: block;
+    margin: 5px 0; /* Add space between lines */
+}
