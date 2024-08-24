@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9613e1;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #13e513;
+    color: rgb(105, 201, 21);
+}
+
+.hero {
+    /* background: url('hero-image.jpg') no-repeat center center; */
+    /* background-size: cover; */
+    /* height: 400px; */
+    color: rgb(232, 25, 25);
+    text-align: center;
+    padding-top: 150px;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+footer {
+    background-color: #c51556;
+    color: white; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 0 15px;
+}
+
+footer img {
+    width: 10px;
+    height: 10px;
+}
+
+.menu-description {
+    font-size:30px;
+    line-height: 1.6; /* Adjusted line height for improved readability */
+    color: #f106d2; /* Dark gray for readability */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 100px; /* Add space between paragraphs */
+}
+
+.menu-description br {
+    content: "#";
+    display: block;
+    margin: 50px 0; /* Add space between lines */
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dev-favorites-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dev-favorites-gallery img {
+    width: 300px;
+    margin: 20px; /* Sets all margins to 20 pixels */
+
+}
+
+.social-mediaicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

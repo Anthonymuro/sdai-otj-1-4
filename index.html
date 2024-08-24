@@ -3,80 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="scripts.js" defer></script> <!-- Link to external JS file -->
     <title>Anthony's on the Job Project</title>
-    <style>
-        /* Basic styling for navigation and sections */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #9613e1;
-            overflow: hidden;
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #13e513;
-            color: rgb(105, 201, 21);
-        }
-        .hero {
-            background: url('hero-image.jpg') no-repeat center center;
-            background-size: cover;
-            height: 400px;
-            color: rgb(232, 25, 25);
-            text-align: center;
-            padding-top: 150px;
-        }
-        .section {
-            padding: 50px;
-            text-align: center;
-        }
-        table {
-            margin: 0 auto;
-            text-align: left;
-        }
-        footer {
-            background-color: #c51556;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        footer a {
-            color: white;
-            margin: 0 15px;
-        }
-        footer img {
-            width: 24px;
-            height: 24px;
-        }
-    </style>
 </head>
-<body>
 
+<body>
     <!-- Header Section -->
     <header>
         <nav>
-            <a href="#hero"><img src="" alt="Dev Dish Food Truck & Restaurant"></a>
+            <a href="#hero">
+                <img src="#" alt="Dev Dish Food Truck & Restaurant">
+            </a> 
             <a href="#hero">Home</a>
+
             <a href="#about">About Us</a>
+
             <a href="#menu">Menu</a>
+
             <a href="#location">Location</a>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <h1>
-            <img src="assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt="Old style street vendor picture" width="600" height="400">
-        </h1>
+        <img src="./assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt="Old style street vendor picture" width="600" height="400">
         <h1>Dev Dish Food Truck & Restaurant</h1>
         <p>Your favorite dishes on wheels and in-store!</p>
     </section>
@@ -93,39 +44,55 @@
         <p>
             Dev Dish is the brainchild of Alex and Jamie, two friends who met at a hackathon and discovered a shared love for innovative cuisine. With a background in software development and a knack for culinary creativity, they embarked on a journey to deliver delicious, tech-themed dishes to the community.
         </p>
-        <h4>
-            <img src="assets/images/pexels-edwardeyer-1247755.jpg" alt="man serving to customer's" width="600" height="400">
-        </h4>
+        <img src="assets/images/pexels-edwardeyer-1247755.jpg" alt="man serving to customer's" width="600" height="400">
     </section>
 
     <!-- Menu Section -->
     <section id="menu" class="section">
-        <section id="menu" class="section">
             <h2>The Dev Dish Quarterly Menu</h2>
             <h3>Wraps</h3>
             <p class="menu-description">
-                Function Fries: Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese<br>
-                Loop Wrap: Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce<br>
-                Stack Overflow: Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado<br>
-                Recursive Roll: Smoked salmon, cream cheese, cucumber, dill, and baby spinach<br>
-                Binary Bites: Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise<br>
-                Git Wrap: Vegetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce<br>
-                Note: All wraps, except Stack Overflow, are served on your choice of flour or corn tortilla.
+                <ul>
+                    <li>Function Fries: Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese</li>
+
+                    <li>Loop Wrap: Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce</li>
+
+                    <li>Stack Overflow: Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado</li>
+
+                    <li>Recursive Roll: Smoked salmon, cream cheese, cucumber, dill, and baby spinach</li>
+
+                    <li>Binary Bites: Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise</li>
+
+                    <li>Git Wrap: Vegetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce</li>
+                </ul>
+                <p>Note: All wraps, except Stack Overflow, are served on your choice of flour or corn tortilla.</p>
+    
             </p>
             <h3>Sides</h3>
             <p class="menu-description">
-                Bug-Free Fries: Just a side of fries<br>
-                Three-Layer Cheese Fries: Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno<br>
-                Golden Ratio Fries: Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno<br>
-                Compile Chips: Tortilla chips and salsa verde
+                <ul>
+                    <li>Bug-Free Fries: Just a side of fries</li>
+
+                    <li>Three-Layer Cheese Fries: Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</li>
+                    
+                    <li>Golden Ratio Fries: Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</li>
+
+                    <li>Compile Chips: Tortilla chips and salsa verde</li>
+                </ul>
             </p>
             <h3>Developer's Favorites</h3>
             <p class="menu-description">
                 Enjoy Dev Dish fan favorite menu items at local events or book us for a visit to your neighborhood or for your special occasion.
             </p>
-        </section>
-        
+            <div class="dev-favorites-gallery">
+                <img src="https://images.pexels.com/photos/104884/pexels-photo-104884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Food Truck Chef at work">
 
+                <img src="https://images.pexels.com/photos/5920742/pexels-photo-5920742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Food Truck Chef giving food to a happy customer">
+
+                <img src="https://images.pexels.com/photos/5920744/pexels-photo-5920744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Food Truck customers enjoying meal">    
+            </div>
+    </section>
+        
     <!-- Location Section -->
     <section id="location" class="section">
         <h2>Location</h2>
@@ -170,22 +137,20 @@
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Anthony's Restaurant. All rights reserved.</p>
-        <div>
-            <a href="https://www.facebook.com" target="_blank">
-                <img src="facebook-icon.png" alt="Facebook">
-            </a>
-            <a href="https://www.twitter.com" target="_blank">
-                <img src="twitter-icon.png" alt="Twitter">
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
-                <img src="instagram-icon.png" alt="Instagram">
-            </a>
+        <div class="social-mediaicon">
+            <!-- <a href="https://www.facebook.com" target="Facebook icon"> -->
+                <img class="footer-icon" src="https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook icon">
+            <!-- </a> -->
+            <!-- <a href="https://www.twitter.com" target="twitter icon"> -->
+                <img class="footer-icon" src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png" alt="Twitter X icon">
+            <!-- </a> -->
+            <!-- <a href="https://www.instagram.com" target="instagram icon"> -->
+                <img class="footer-icon" src="https://thumbs.dreamstime.com/b/print-204010528.jpg" alt="Instagram icon">
+            <!-- </a> -->
+            <!-- <a href="https://www.tiktok.com" target="tiktok icon"> -->
+             <img class="footer-icon" src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="TikTok icon">
+            <!-- </a> -->
         </div>
     </footer>
-
-</body>
-</html>
-
-
 </body>
 </html>
