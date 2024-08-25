@@ -12,7 +12,7 @@ header {
 nav a {
     float: left;
     display: block;
-    color: white;
+    color: rgb(12, 244, 82);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -36,14 +36,31 @@ nav a:hover {
     padding: 50px;
     text-align: center;
 }
+#hours {
+    background-color: #ffffff;
+    color: #000000;
+}
 
 table {
     margin: 0 auto;
     text-align: left;
 }
-
+#hours table {
+    width: 20%;
+    border-collapse: collapse;
+}
+#hours table td {
+    padding: 8px;
+    border: 1px solid #000000;
+}
+#hours table tr:nth-child(even) {
+    background-color: #be631d;
+}
+#hours table tr:nth-child(odd) {
+    background-color: #c82121c1;
+}
 footer {
-    background-color: #c51556;
+    background-color: #000000;
     color: white; 
     padding: 10px 0;
     text-align: center;
@@ -51,12 +68,13 @@ footer {
 
 footer a {
     color: white;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 footer img {
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    margin: 10px; 
+    
 }
 
 .menu-description {
