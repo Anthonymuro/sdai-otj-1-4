@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,8 +8,19 @@ body {
 header {
     background-color: #9613e1;
     overflow: hidden;
+    padding: 10px 0;  /* padding for spacing */
 }
-
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 nav a {
     float: left;
     display: block;
@@ -49,6 +61,7 @@ table {
     width: 20%;
     border-collapse: collapse;
 }
+
 #hours table td {
     padding: 8px;
     border: 1px solid #000000;
@@ -78,10 +91,10 @@ footer img {
 }
 
 .menu-description {
-    font-size:30px;
+    font-size:25px;
     line-height: 1.6; /* Adjusted line height for improved readability */
     color: #f106d2; /* Dark gray for readability */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
     margin-bottom: 100px; /* Add space between paragraphs */
 }
 
@@ -89,6 +102,7 @@ footer img {
     content: "#";
     display: block;
     margin: 50px 0; /* Add space between lines */
+    text-align: center;  /*moved text to center*/
 }
 
 #scroll-to-top {
