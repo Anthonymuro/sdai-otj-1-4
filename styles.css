@@ -96,6 +96,8 @@ footer img {
     color: #f106d2; /* Dark gray for readability */
     text-align: center; /* Align text to the left */
     margin-bottom: 100px; /* Add space between paragraphs */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 10s ease-in-out; /* Transition for smooth fading */
 }
 
 .menu-description br {
@@ -134,4 +136,25 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+  }
+  
+  .fade-in.show {
+    opacity: 3;
+
+  }
+  .header-image {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 10s ease-in-out; /* Transition for smooth fading */
+}
+.section-location {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 10s ease-in-out; /* Transition for smooth fading */
+}
+#hours{
+    opacity: 0; /* Initially hidden */
+    transition: opacity 10s ease-in-out; /* Transition for smooth fading */
 }

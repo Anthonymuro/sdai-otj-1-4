@@ -1,29 +1,29 @@
-//calculate and return the total for a sale
+document.addEventListener("DOMContentLoaded", function() {
+    const headerImage = document.querySelector('.header-image');
+    //header img
+    // Wait a brief moment, then fade in the image
+    setTimeout(() => {
+        headerImage.style.opacity = 1;
+    }, 500); // 500 ms delay before starting fade-in
+//menu 
+const menu = document.querySelector('.menu-description');
+    
+    // Wait a brief moment, then fade in the image
+    setTimeout(() => {
+        menu.style.opacity = 1;
+    }, 500); // 500 ms delay before starting fade-in
 
-function saletotal (item1, item2, item3) {
-    return item1 + item2 + item3
-}
-//call of the function 
-console.log(saletotal (2.49, 5.25, 4.99)) //13.23
+    const location = document.querySelector('section-location');
+   //location
+    // Wait a brief moment, then fade in the image
+    setTimeout(() => {
+        location.style.opacity = 1;
+    }, 500); // 500 ms delay before starting fade-in
 
-
-//funtion to calculate the area of a rectangle
-//formula = l * w
-//definition of the funtion
-
-function arearectangle (length, width) {
-    return length * width
-}
-
-// call funtion  to use
-console.log(arearectangle(10, 20))
-
-//function to divide two numbers
-function divide (num1, num2) {
-    return num1/num2
-}
-
-//call function to use
-console.log(divide(12, 2)) //divide facts
-console.log(divide(12, 0)) //???
-console.log(divide(13, 2)) //float / decimal
+    const hours = document.querySelector('.section-hours');
+    //open hours
+    // Wait a brief moment, then fade in the image
+    setTimeout(() => {
+        hours.style.opacity = 1;
+    }, 500); // 500 ms delay before starting fade-in
+});
